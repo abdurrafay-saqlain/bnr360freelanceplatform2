@@ -1,0 +1,175 @@
+.container {
+
+    max-width: 1103px;
+
+}
+
+.box{
+
+    width: 450px;
+
+    height: 1152px;
+
+    box-shadow: 0px 0px 0px 1px;
+
+    margin-left: -75px;
+
+    border-radius: 10px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    margin-right: 10px;
+
+}
+
+.h3, h3{
+
+    color: #8969C0;
+
+    margin-left: 40px;
+
+}
+
+.line {
+
+    border-bottom: 1px solid #00000040;
+
+    margin-bottom: 4px;
+
+    margin-top: 20px;
+
+}
+
+.profile {
+
+    margin-left: 93px;
+
+    margin-top: -60px;
+
+}
+
+.row1{
+
+    display: flex;
+
+}
+
+.profile h6{
+
+    color: #7B7B7F;
+
+}
+
+.h6, h6{
+
+    color: #8969C0;
+
+}
+
+p{
+
+    margin-top: 15px;
+
+}
+
+.line1{
+
+    border-bottom: 1px solid #00000040;
+
+    width: 80%;
+
+    margin-left: 35px;
+
+    margin-bottom: 30px;
+
+    margin-top: 30px;
+
+}
+
+.box1 {
+
+    width: 265px;
+
+    height: 1152px;
+
+    box-shadow: 0px 0px 0px 1px;
+
+    margin-top: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+}
+
+.profile1 h6{
+
+    color: #7B7B80;
+
+    margin-left: 80px;
+
+    margin-top: -60PX;
+
+}
+
+.row2{
+
+    display: flex;
+
+}
+
+.row3{
+
+    display: flex;
+
+    margin-left: -60px;
+
+}
+
+.row3 h6{
+
+    margin-top: 30px;
+
+}
+
+.row3 p{
+
+    margin-top: 60px;
+
+    margin-left: -135px;
+
+}
+
+.box2{
+
+    width: 115px;
+
+    height: 25px;
+
+    box-shadow: 0px 0px 0px 1px;
+
+    margin-left: 20px;
+
+    margin-bottom: 20px;
+
+    background-color: #7B7B80;
+
+    border-radius: 7px;
+
+    padding-left: 20px;
+
+}
+
+.box2 p{
+
+    margin-top: -3px;
+
+}
+
+.row4{
+
+    display: flex;
+
+}

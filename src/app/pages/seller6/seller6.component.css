@@ -1,0 +1,24 @@
+label {
+    color: #95959A;
+    margin-top: -45px;
+    margin-left: 100px;
+}
+progress#file {
+    background-color: #8969C0;
+    padding: 10px 10px;
+    height: 15px;
+    width: 195px;
+    left: 1488px;
+    top: 40px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: -45px;
+}
+.box{
+    width: 1050px;
+    height: 570px;
+    box-shadow: 0px 0px 0px 1px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    margin-left: -100px;
+}

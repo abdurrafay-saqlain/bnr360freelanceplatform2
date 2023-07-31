@@ -1,0 +1,62 @@
+<form [formGroup]="signinForm">
+<div class="Container">
+    <div class="col-lg-6 col-md-6 col-sm-6 mx-auto">
+        <img src="assets/BnR360.png" alt="" routerLink="">
+        <h2>Sign up to get started</h2>
+        <h6 routerLink="/signup">Already registered ?<span>signin</span></h6> 
+        <div class="col-lg-2 col-md-2 col-sm-2 text-center">
+        <div class="media">
+         <div class="row1">
+          <IMG src="assets/google.png" alt="">
+          <IMG src="assets/Facebook.png" alt="">
+         </div>
+        </div>
+       </div>
+         <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="row">
+               <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="mt-3">
+                     <div class="form_feild">
+                        <label for="Firstname" class="first_name">First Name</label>
+                        <input type="text" id="Firstname" name="Firstname" class="w-100" formControlName="Firstname">
+                     </div>
+                
+                  </div>
+                   </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+               <div class="mt-3">
+                  <div class="form_feild">
+                     <label for="Lastname">Last Name</label>
+                     <input type="text" id="Lasttname" name="Lastname" class="w-100" formControlName="Lastname">
+                  </div>
+               </div>
+            </div>
+            
+            </div>
+         <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+         <div class="Efield mt-3">
+            <label for="Email">Email Address</label>
+            <input type="text" id="Email" name="Email" class="w-100" formControlName="Email">
+         </div>
+         <div class="reEfield mt-3">
+            <label for="reEmail">Re-enter your Email</label>
+            <input type="text" id="reEmail" name="reEmail" formControlName="reEmail" class="w-100">
+         </div>
+         <div class="password mt-3">
+            <label for="pwd">Passwords</label>
+            <input type="password" id="pwd" name="pwd" formControlName="pwd" class="w-100">
+         </div>
+         <div class="repassword mt-3">
+            <label for="repwd">Re-enter your Passwords</label>
+            <input type="password" id="repwd" name="repwd" formControlName="repwd" class="w-100">
+         </div>
+         <div class="button mt-3">
+            <input type="checkbox" id="agree" name="agree" value="Conditions">
+            <label for="agree">I agree to the <span>Arrange Terms of use Privacy policy</span>  and <span>Data processing agreement</span></label>
+            <button type="button" (click)="savedata()" routerLink="/verification">Sign up</button>
+         </div>
+         </div>
+    </div>
+</div>
+</div>
+</form>

@@ -1,0 +1,120 @@
+.box {
+    width: 80%;
+    height: 820px;
+    box-shadow: 0px 0px 0px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+label{
+    color: #7B7B80;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+progress#file {
+    background-color: #8969C0;
+    padding: 10px 10px;
+    margin-left: 300px;
+    margin-top: -55px;
+    height: 26px;
+    width: 106px;
+    border-radius: 5px;
+}
+.box h1{
+    text-align: center;
+    color: #36284D;
+}
+.box p {
+    text-align: start;
+    color: #000000;
+    margin: 0;
+}
+.h1 {
+    color: #36284D;
+}
+.box>select{
+    margin-left: 60px;
+    margin-top: 5px;
+    width: 88%;
+    padding: 0 10px;
+    color: #000000;
+    border-radius: 10px;
+}
+.City>label{
+    margin-left: 60px;
+    margin-top: 20px;
+    color: #7B7B80;
+}
+select {
+    margin-left: 60px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 88%;
+    padding: 12px;
+    color: #000000;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 10px;
+}
+.field input {
+    width: 88%;
+    height: 40px;
+    margin-left: 60px;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.field textarea {
+    width: 88%;
+    /* height: 40px; */
+    margin-left: 60px;
+    color: #000000;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+/* #Descriptions {
+    height: 70px;
+    color: #7B7B80;
+} */
+.btn {
+    border-color: #977BC8;
+    color: white;
+    background-color: #977BC8;
+    padding: 2px 25px;
+}
+
+
+/* _____________________NEW Styling__________________ */
+.percent{
+    font-weight: 600;
+    color: #977BC8;
+}
+
+.sign-up2-con{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 4%;
+}
+
+.client-profile-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-question-circle-o{
+    color: black;
+    font-size: 1.1rem;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+/* _____________________NEW Styling__________________ */

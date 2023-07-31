@@ -1,0 +1,149 @@
+label {
+    color: #95959A;
+    margin-top: -45px;
+    margin-left: 100px;
+}
+progress#file {
+    background-color: #8969C0;
+    padding: 10px 10px;
+    height: 15px;
+    width: 195px;
+    left: 1488px;
+    top: 40px;
+    border-radius: 5px;
+    margin-left: 300px;
+    margin-top: -45px;
+}
+.box{
+    border-color: 1px #1E1E1E;
+    width: 800px;
+    height: 750px;
+    box-shadow: 0px 0px 0px 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 270px;
+}
+h1{
+    text-align: center;
+    size: 60px;
+    color:#36284D;
+}
+p{
+    color: #7B7B80;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.CN>input{
+    margin-left: 30px;
+    margin-top: -35px;
+    padding-right: 500px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.FN>p{
+    margin-top: 12px;
+}
+.FN>input{
+    margin-left: 30px;
+    margin-top: -35px;
+    padding-right: 100px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.LN>p{
+    margin-left: 430px;
+    margin-top: -70px;
+}
+.LN>input{
+    margin-left: 430px;
+    margin-top: -35px;
+    padding-right: 100px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.EM>p{
+    margin-top: 12px;
+}
+.EM>input{
+    margin-left: 30px;
+    margin-top: -35px;
+    padding-right: 100px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.EY>p{
+    margin-left: 430px;
+    margin-top: -70px;
+}
+.EY>input{
+    margin-left: 430px;
+    margin-top: -35px;
+    padding-right: 100px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.SC>input{
+    margin-left: 30px;
+    margin-top: -35px;
+    padding-right: 500px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.c>label{
+    margin-bottom: -30px;
+}
+.C>select{
+    margin-left: -70px;
+    margin-top: -100px;
+    padding-right: 620px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+    color: #95959A;
+}
+.A>input{
+    margin-left: 30px;
+    margin-top: -35px;
+    padding-right: 500px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+.City>p{
+    margin-top: 12px;
+}
+.City>select{
+    margin-left: -70px;
+    margin-top: -100px;
+    padding-right: 200px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+    color: #95959A;
+}
+.PC>p{
+    margin-left: 430px;
+    margin-top: -70px;
+}
+.PC>input{
+    margin-left: 430px;
+    margin-top: -35px;
+    padding-right: 100px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+    border: 1px solid #FF0B0B;
+}
+button {
+    margin-left: 335px;
+    margin-top: 40px;
+    padding: 5px 35px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    background-color:#977BC8;
+}

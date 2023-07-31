@@ -1,0 +1,22 @@
+.footer__links > ul > li {
+    list-style: none;
+   padding: 10px 0;
+}
+.footer__links > ul > li > a {
+   color: #fff;
+   font-size: 14px;
+  text-decoration: none;
+}
+
+footer{
+    padding: 20px 0;
+    background: #212140;
+
+}
+.footer__links > ul{
+    margin: 1rem 0;
+}
+.follow a{
+
+    font-weight: 600;
+}

@@ -1,0 +1,157 @@
+.box {
+    width: 80%;
+    box-shadow: 0px 0px 7px 1px #80808059;
+    margin-bottom: 10px;
+    padding: 0 5%;
+}
+
+.box h1 {
+    text-align: center;
+    padding-top: 15px;
+}
+
+progress#file {
+    background-color: #8969C0;
+    padding: 10px 10px;
+    height: 15px;
+    width: 195px;
+    left: 1488px;
+    top: 40px;
+    border-radius: 5px;
+    /* margin-left: 210px; */
+    margin-top: -55px;
+}
+
+.row {
+    display: flex;
+    gap: 2rem;
+}
+
+.btn1 {
+    /* margin-left: 250px; */
+    margin-top: -170px;
+}
+
+.btn2 {
+    /* margin-left: 250px; */
+    margin-top: -130px;
+}
+
+.box2 {
+    box-shadow: 0px 0px 0px 1px;
+    width: 800px;
+    height: 150px;
+    /* margin-left: 75px; */
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+.box3 {
+    box-shadow: 0px 0px 0px 1px;
+    width: -9000px;
+}
+
+p {
+    /* margin-left: 60px; */
+}
+
+.box7 {
+    box-shadow: 0px 0px 0px 1px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-between;
+}
+
+/* .Title {
+    margin-bottom: -20px;
+} */
+
+.Skills {
+    margin-top: 12px;
+    /* margin-left: 10px; */
+}
+
+.Year>label {
+    color: #95959A;
+}
+
+select {
+    padding-right: 20px;
+    color: #95959A;
+    margin-left: 10px;
+}
+
+
+.To>label {
+    color: #95959A;
+}
+
+
+.button {
+    text-align: center;
+}
+
+.button>button {
+    background-color: #977BC8;
+    color: #FFFFFF;
+    border-radius: 5px;
+    width: 80px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+
+
+
+/* NEW STYLING */
+.card-containerr {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-sec {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.box1 {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.lang-con {
+    width: 80%;
+    margin-left: 2%;
+}
+
+p,
+label {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.icons {
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons .fa {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* NEW STYLING */

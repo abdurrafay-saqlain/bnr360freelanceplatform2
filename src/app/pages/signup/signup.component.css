@@ -1,0 +1,64 @@
+img{
+    width: 40%;
+    height: 10%;
+    margin-left: 160px;
+    margin-bottom: -5px;
+}
+h2{
+    margin-top: -5px;
+    color: #7B7B80;
+    margin-left: 95px;
+}
+.field{
+    margin-left: 15px;
+}
+label.first_name {
+    margin: 0 4rem;
+    color: #a9a5a5;
+}
+
+
+.button>button{
+    /* background-color: #977BC8; */
+    color: white;
+    border-radius: 10px;
+    padding: 6px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+}
+.field>input{
+    border-radius: 10px;
+    padding: 6px 15px;
+    padding-right: 280px;
+    margin-bottom: 5px;
+    border: 1px solid gray;
+}
+.field>label{
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #95959A;
+}
+.button>label{
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+.button>input{
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
+.button>label>span{
+    color: #8969C0;
+    text-decoration: underline; 
+}
+
+::ng-deep.loading-text{
+    top: 62% !important;
+}
+.container{
+    width: 1000px;
+}

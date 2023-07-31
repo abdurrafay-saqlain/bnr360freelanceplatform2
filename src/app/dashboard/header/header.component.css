@@ -1,0 +1,133 @@
+header {
+    padding: 0px 0;
+    background-color: #F0F7F7;
+}
+
+.header__logo>img {
+    width: 50%;
+}
+
+.header__navlist>ul {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+}
+
+.header__navlist {
+    margin: 21px 0;
+}
+
+.header__navlist>ul>li {
+    margin-left: 30px;
+}
+
+.header__navlist>ul>li>a {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    text-decoration: none;
+    color: #212140;
+    font-weight: 500;
+}
+.header__navlist>ul>li>a:hover {
+    color: #F14F0F;
+    transition: 300ms all ease-in-out;
+}
+
+.header__btns>button {
+    outline: none;
+    background: #212140;
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    padding: 3px 25px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.header__btns > button:hover{
+
+}
+
+.header__btns {
+    width: 100%;
+    margin: 0 2rem;
+}
+
+.row {
+    --bs-gutter-x: 2.5rem;
+}
+
+.menu[_ngcontent-fwv-c1] {
+    margin-top: 25px;
+}
+
+.logo img {
+    width: 150%;
+    margin-top: 15px;
+    margin-left: -80px;
+}
+
+.menu {
+    margin-top: 30px;
+    padding-right: 10px;
+    margin-left: -55px;
+    font-weight: 500;
+}
+
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    list-style-type: none;
+    font-family: poppins;
+    color: #212140;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 40px;
+    font-style: medium;
+}
+
+.menu ul li:hover {
+    color: orangered;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.button {
+    margin-top: 25px;
+    text-align: end;
+    margin-right: -35px;
+}
+
+.button ul {
+    padding: 0;
+    margin: 0;
+}
+
+.button ul li {
+    list-style-type: none;
+}
+
+.btn1 {
+    background-color: rgb(4, 4, 39);
+    color: white;
+    border-radius: 8px;
+    margin-right: 5px;
+    padding: 0px 30px;
+}
+
+.btn2 {
+    color: black;
+    border-radius: 8px;
+    margin-left: 20px;
+    padding: 0px 23px;
+}
+
+.button a {
+    color: black;
+    background-color: #F0F7F7;
+    text-decoration: none;
+}

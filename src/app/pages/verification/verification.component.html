@@ -1,0 +1,24 @@
+<div class="Container verify-container">
+    <div class="container-inner">
+        <div class="right-side">
+            <img class="logo" src="assets/BnR360.png" alt="">
+            <h4><span>Bnr</span> has sent you a verification on your gmail</h4>
+            <p>check your <span class="cp">email</span> for Verification process</p>
+            <div class="text">
+                <ng-otp-input #ngOtpInput (onInputChange)="onOtpChange($event)" *ngIf="showOtpComponent"
+                    [config]="otpFailed ? configErr : config"></ng-otp-input>
+            </div>
+
+
+            <button (click)="goto('signup-next')" [disabled]="verifyBtnDisabled" class="save-btn"
+                [style.backgroundColor]="verifyBtnDisabled ? '#8f96a1' : '#977BC8'">Verify</button>
+            <div class="Resend">
+                <!-- <p>00:15   <span>Resend code</span></p> -->
+            </div>
+        </div>
+        <div>
+            <img class="man-img"
+                src="https://static.vecteezy.com/system/resources/previews/015/696/374/non_2x/work-at-home-or-office-concept-design-freelance-man-working-on-laptop-at-her-office-or-house-dressed-in-casual-clothes-illustration-isolated-on-white-background-online-study-education-vector.jpg" />
+        </div>
+    </div>
+</div>

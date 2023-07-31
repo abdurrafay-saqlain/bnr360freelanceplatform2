@@ -1,0 +1,40 @@
+<form [formGroup]="signupForm">
+    <div class="container">
+        <div class="col-lg-6 mx-auto">
+            <img src="assets/BnR360.png" alt="" routerLink="">
+            <h2 class="mt-4">Sign in to get started</h2>
+            <div class="image">
+                <img class="cp" src="assets/google.png" alt="" style="width: 10%;">
+                <img class="cp" src="assets/Facebook.png" alt="" style="width: 10%;">
+            </div>
+            <div class="field mt-3">
+                <label for="Emailaddress">Email address</label>
+                <input type="text" id="Emailaddress" name="Emailaddress" formControlName="Emailaddress"
+                    [ngClass]="{'error-field' : (signUpControl['Emailaddress'].touched) && signUpControl['Emailaddress'].errors?.['required']}">
+                <p *ngIf="signUpControl['Emailaddress'].errors?.['required'] && signUpControl['Emailaddress'].touched"
+                    class="error">Email is
+                    required.</p>
+
+
+                <label class="mt-2" for="pwd">Password</label>
+                <input type="password" id="pwd" name="pwd" formControlName="password"
+                    [ngClass]="{'error-field' : (signUpControl['password'].touched) && signUpControl['password'].errors?.['required']}">
+                <p class="error"
+                    *ngIf="(signUpControl['password'].touched) && signUpControl['password'].errors?.['required']">
+                    Password is required.
+                </p>
+            </div>
+            <div class="button mt-3">
+                <input (change)="termConditions($event)" class="cp" type="checkbox" id="agree" name="agree"
+                    value="Conditions">
+                <label for="agree">I agree to the <span class="cp">Arrange Terms of use Privacy policy</span> and <span
+                        class="cp">Data
+                        processing agreement</span></label>
+                <button (click)="savedata()" [disabled]="subscribeBtnDisabled || signupForm.invalid"
+                    [style.backgroundColor]="subscribeBtnDisabled || signupForm.invalid ? '#8f96a1' : '#977BC8'">Sign
+                    in</button>
+            </div>
+            <!-- <img src="../../../assets/loader1.gif"/> -->
+        </div>
+    </div>
+</form>

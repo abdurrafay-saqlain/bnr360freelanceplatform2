@@ -1,0 +1,80 @@
+<form [formGroup]="client3Form">
+    <div class="img">
+        <div class="sign-up2-con">
+            <div class="">
+                <img src="../../../assets/BnR360.png" alt="" style="width:150px; height:85px;" routerLink="">
+            </div>
+            <div style="width: 200px;">
+                <p class="m-0">Completion Rate: <span class="percent">80%</span></p>
+                <div class="w3-light-grey">
+                    <div class="animation-bar-1">
+                        <span style="width:80%"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-con">
+            <div class="box">
+                <div class="Text">
+                    <h1>Join Bnr 360 as a Client</h1>
+                </div>
+                <div class="CN">
+                    <p>Card Number <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <input type="text" id="Card Number" name="Card Number" placeholder="    1234 5678 9012 3456"
+                        formControlName="CardNumber">
+                </div>
+                <div class="FN">
+                    <p>First name</p>
+                    <input type="text" id="First name" name="First name" formControlName="Firstname">
+                </div>
+                <div class="LN">
+                    <p>Last name</p>
+                    <input type="text" id="Last name" name="Last name" formControlName="Lastname">
+                </div>
+                <div class="EM">
+                    <p>Expiration month</p>
+                    <input type="text" id="Expiration month" name="Expiration month" formControlName="Expirationmonth">
+                </div>
+                <div class="EY">
+                    <p>Expiration year</p>
+                    <input type="text" id="Expiration year" name="Expiration year" formControlName="ExpirationYear">
+                </div>
+                <div class="SC">
+                    <p>Security code <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <input type="text" id="Scode" name="Scode" formControlName="SecurityCode">
+                </div>
+                <div class="C">
+                    <p class="Title">Country <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <label for="Country"></label>
+                    <select id="Country" name="Country" formControlName="Country">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="America">America</option>
+                        <option value="Canada">Canada</option>
+                    </select>
+                </div>
+                <div class="A">
+                    <p>Address <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <input type="text" id="Addre" name="Addre" formControlName="Address">
+                </div>
+                <div class="City">
+                    <p>City <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <label for="City"></label>
+                    <select id="City" name="City" formControlName="City">
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Pindi">Pindi</option>
+                        <option value="Islamabad">Islamabad</option>
+                    </select>
+                </div>
+                <div class="PC">
+                    <p>Postal code <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+                    <input type="text" id="Pcode" name="Pcode" formControlName="PostalCode">
+                </div>
+                <div class="Button">
+                    <button (click)="savedata()">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
